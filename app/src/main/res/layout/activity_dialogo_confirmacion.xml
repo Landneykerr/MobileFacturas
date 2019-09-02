@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dialogo_confirmacion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.facturas.julian.mobilefacturas.DialogoConfirmacion">
+
+    <Button
+        android:id="@+id/dc_Btn_Cancelar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/dc_Lbl_Mensaje"
+        android:layout_toRightOf="@+id/dc_Btn_Aceptar"
+        android:text="@string/dc_Btn_Cancelar" />
+
+    <TextView
+        android:id="@+id/dc_Lbl_Mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/ic_warning_dialog"
+        android:layout_toRightOf="@+id/ic_warning_dialog"
+        android:gravity="left|center_vertical"
+        android:text="@string/dc_Lbl_Mensaje"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/ic_warning_dialog"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/ic_warning_dialog" />
+
+    <Button
+        android:id="@+id/dc_Btn_Aceptar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/dc_Btn_Cancelar"
+        android:layout_alignBottom="@+id/dc_Btn_Cancelar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:text="@string/dc_Btn_Aceptar" />
+
+</RelativeLayout>

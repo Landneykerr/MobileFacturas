@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile Facturas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="anyline_license" translatable="false">eyJzY29wZSI6WyJBTEwiXSwicGxhdGZvcm0iOlsiaU9TIiwiQW5kcm9pZCIsIldpbmRvd3MiXSwidmFsaWQiOiIyMDE4LTA0LTA3IiwibWFqb3JWZXJzaW9uIjoiMyIsImlzQ29tbWVyY2lhbCI6ZmFsc2UsInRvbGVyYW5jZURheXMiOjYwLCJpb3NJZGVudGlmaWVyIjpbImNvbS5mYWN0dXJhcy5qdWxpYW4ubW9iaWxlZmFjdHVyYXMiXSwiYW5kcm9pZElkZW50aWZpZXIiOlsiY29tLmZhY3R1cmFzLmp1bGlhbi5tb2JpbGVmYWN0dXJhcyJdLCJ3aW5kb3dzSWRlbnRpZmllciI6WyJjb20uZmFjdHVyYXMuanVsaWFuLm1vYmlsZWZhY3R1cmFzIl19CkNBeGpmM2NMZXZTRXkzbHRLb3BiMVUvamx1Vjh2SDdTTHVoV2ovVmRvb1ErcFkwNzF3U3JZWkcrelpJNTJFaFc5dE5USnBpNDJxcUxEb0pwaHVOSjlpb09ScWh1UFMrczZOU2wwSEZuVDZwc01uZkEyTXVxbEZ5RlhqNThzcDhpUmw4Y0M2WGV3djNRNWVyaFVkYVd5c2UrbjJzSXMwVU8wbFhXeUczWEZ2WHo5UEk2QlpJSnFYUFY0OVB6MGNUSUl4dGtIZWwrVVpYTkFUUUJ4RVV6M0cxcE55WGh0N1RqOTgvWWYxWmNaa3ErWGtuL0V0K3FVYWRORzBxTUlNMWgxSlpZMzN0YW9jU0k1WVIyL1h0eWJIajZpbzFuRmhDbXN6ZmRGcmhKc0FnSnJWT01NU3QweDRkeWpDUjBOQ1d3RzFBbWQ2UVE3WXBFalgyZzFTS2pHdz09</string>
+    <string name="pref_reporting">Report Results</string>
+    <string name="pref_reporting_summary">
+        The reporting of results in the Community Edition - including the photo of a scanned item -
+        helps us in improving our product, and the customer experience.
+        Results and images of the MRZ, Barcode, and Document modules are NOT reported in any case.
+    </string>
+
+    <string name="title_activity_informacion_rutas">informacion_rutas</string>
+    <string name="title_activity_lista_rutas">lista_rutas</string>
+    <string name="title_activity_tomar_lectura">Entrega Factura</string>
+    <string name="title_activity_lista_informacion_rutas">AdaptadorInformacionRutas</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="title_activity_form_buscar">Buscar</string>
+    <string name="Item1">Item1</string>
+    <string name="Item2">Item2</string>
+    <string name="Item3">Item3</string>
+    <string name="Item4">Item4</string>
+    <string name="title_activity_dialogo_confirmacion">Confirmacion</string>
+    <string name="di_Lbl_Mensaje">Mensaje</string>
+    <string name="di_Btn_Aceptar">Aceptar</string>
+    <string name="title_activity_dialogo_informacion">DialogoInformacion</string>
+    <string name="title_activity_form_ubicacion">FormUbicacion</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="dialogButtonAccept">Aceptar</string>
+
+    <!--String's para el formulario loggin-->
+    <string name="LogginLblCodigo">Codigo</string>
+    <string name="LogginLblNombre">Inspector_sin_asignar</string>
+    <string name="LogginBtnIngresar">Ingresar</string>
+    <string name="LogginLblVersionBD">Version BD</string>
+    <string name="LogginLblVersionSoft">Version MobileFacturas</string>
+    <string name="LogginLblBluetooth">MAC Bluetooth</string>
+    <string name="LogginMnuCargarRutas">Cargar Ruta</string>
+    <string name="LogginMnuVerRutas">Ver Rutas</string>
+    <string name="LogginMnuSalir">Salir</string>
+    <string name="LogginMnuCargarParametros">Cargar Parametros</string>
+    <string name="LogginMnuConfiguracion">Configuracion</string>
+    <string name="LogginLblLatitud">Latitud: </string>
+    <string name="LogginLblLongitud">Longitud: </string>
+
+
+    <!-- String's para el formulario de configuracion -->
+    <string name="ConfiguracionLblServidor">Servidor</string>
+    <string name="ConfiguracionLblPuerto">Puerto</string>
+    <string name="ConfiguracionLblModulo">Modulo</string>
+    <string name="ConfiguracionLblWebService">Web Service</string>
+    <string name="ConfiguracionLblLimiteDistancia">Limite Distancia</string>
+    <string name="ConfiguracionBtnGuardar">Guardar</string>
+
+    <!-- String's para el formulario de informacion de rutas-->
+    <string name="TituloRutas">Rutas</string>
+    <string name="TituloTotal">Total</string>
+    <string name="TituloLeidas">Entre.</string>
+    <string name="TituloPendientes">Pend.</string>
+
+    <!-- String's para el formulario de toma factura-->
+    <string name="lblDistancia">Distancia</string>
+    <string name="TxtMensaje">Mensaje</string>
+    <string name="TxtAnomalia">Anomalia</string>
+    <string name="TxtTipoUso">Tipo Uso</string>
+    <string name="TxtLectura1">Lectura_1</string>
+    <string name="TxtLectura2">Lectura_2</string>
+    <string name="TxtLectura3">Lectura_3</string>
+    <string name="LecturasBtnCodeQR">Codigo QR</string>
+    <string name="LecturasBtnCodeBar">Codigo de Usuario</string>
+    <string name="LecturasBtnGuardar">Guardar</string>
+    <string name="LecturasBtnImprimir">Imprimir</string>
+    <string name="LecturasBtnAnterior">&lt;</string>
+    <string name="LecturasBtnSiguiente">&gt;</string>
+    <string name="TxtCritica">Critica</string>
+    <string name="TomaLecturaMnuRendimiento">Rendimiento</string>
+    <string name="TomaLecturaMnuFoto">Foto</string>
+    <string name="TomaLecturaMnuImprimir">Imprimir</string>
+    <string name="TomaLecturaMnuBuscar">Buscar</string>
+    <string name="TomaLecturaMnuUbicacion">Ubicacion GPS</string>
+
+
+    <!--String's para los dialogos-->
+    <string name="lbl_dialog_rendimiento_pendientes">Pendientes</string>
+    <string name="lbl_dialog_rendimiento_cola">En Cola</string>
+    <string name="lbl_dialog_rendimiento_enviadas">Enviadas</string>
+    <string name="lbl_dialog_rendimiento_total">Total</string>
+
+    <!-- String's para el formulario buscar -->
+    <string name="TxtBuscarCuenta">Cuenta</string>
+    <string name="TxtBuscarMedidor">Medidor</string>
+    <string name="TxtBuscarNombre">Nombre</string>
+    <string name="TxtBuscarDireccion">Direccion</string>
+
+
+    <!--String's menu contextual informacion rutas-->
+    <string name="MnuCtxEntregarFacturas">Iniciar Entrega de Facturas</string>
+    <string name="MnuCtxSincronizar">Sincronizar</string>
+    <string name="MnuCtxSincronizarFotos">Sincronizar Fotos</string>
+    <string name="MnuCtxTerminarRuta">Terminar Ruta</string>
+
+
+    <!--String's Dialogo de confirmacion-->
+    <string name="dc_Lbl_Mensaje">Mensaje</string>
+    <string name="dc_Btn_Aceptar">Aceptar</string>
+    <string name="dc_Btn_Cancelar">Cancelar</string>
+
+
+</resources>

@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toast_layout_info"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="8dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical|center|center_horizontal"
+    android:background="@color/fondo_formulario">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/test_bien"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/TextToastMensaje"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="text"
+        android:textStyle="bold"
+        android:textColor="@color/mensaje_info"
+        android:layout_weight="1"
+        android:gravity="center|center_vertical|center_horizontal" />
+
+</LinearLayout>

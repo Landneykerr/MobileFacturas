@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+       <TextView
+           android:id="@+id/dialog_lbl_pendientes"
+           android:text="@string/lbl_dialog_rendimiento_pendientes"
+           android:gravity="center_vertical|right"
+           android:textSize="20dp"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="4"/>
+
+        <EditText
+            android:id="@+id/dialog_txt_pendientes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center_horizontal|center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/dialog_lbl_cola"
+            android:text="@string/lbl_dialog_rendimiento_cola"
+            android:gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"/>
+
+        <EditText
+            android:id="@+id/dialog_txt_cola"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center_horizontal|center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/dialog_lbl_enviadas"
+            android:text="@string/lbl_dialog_rendimiento_enviadas"
+            android:gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"/>
+
+        <EditText
+            android:id="@+id/dialog_txt_enviadas"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center_horizontal|center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/dialog_lbl_total"
+            android:text="@string/lbl_dialog_rendimiento_total"
+            android:gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+
+        <EditText
+            android:id="@+id/dialog_txt_total"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center_horizontal|center_vertical"/>
+    </LinearLayout>
+
+</LinearLayout>

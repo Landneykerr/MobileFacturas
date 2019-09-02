@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".InicioSession">
+
+    <item android:id="@+id/InicioCargarParametros"
+        android:title="@string/LogginMnuCargarParametros"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/InicioCargarRuta"
+        android:title="@string/LogginMnuCargarRutas"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/InicioVerRutas"
+        android:title="@string/LogginMnuVerRutas"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/InicioConfiguracion"
+        android:title="@string/LogginMnuConfiguracion"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/InicioMenuSalir"
+        android:title="@string/LogginMnuSalir"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

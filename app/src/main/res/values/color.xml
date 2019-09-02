@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo_formulario">#F6F6F6</color>
+    <color name="label">#FFFF5E2C</color>
+    <color name="cajas_texto">#FF5CBD79</color>
+    <color name="botones">#FFFF5E2C</color>
+
+    <color name="btn_sin_leer">#F04B4B</color>
+    <color name="btn_leido">#42A944</color>
+
+    <color name="verde">#42A944</color>
+    <color name="rojo">#f04b4b</color>
+
+
+    <color name="mensaje_info">#000066</color>
+
+    <color name="lbl_sin_leer">#FFFFFF</color>
+    <color name="lbl_leido">#000000</color>
+    <color name="btn_guardar">#0666ff</color>
+
+</resources>

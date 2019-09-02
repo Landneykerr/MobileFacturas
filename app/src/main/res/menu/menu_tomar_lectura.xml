@@ -1,0 +1,29 @@
+<menu   xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context="com.facturas.julian.mobilefacturas.FormEntregarFactura" >
+
+    <item   android:id="@+id/LecturaMenuRendimiento"
+        android:title="@string/TomaLecturaMnuRendimiento"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_rendimiento"
+        app:showAsAction="always|withText" />
+
+    <item   android:id="@+id/LecturaMenuFoto"
+        android:title="@string/TomaLecturaMnuFoto"
+        android:icon="@drawable/ic_action_camera"
+        android:orderInCategory="100"
+        app:showAsAction="always|withText" />
+
+    <item   android:id="@+id/LecturaMenuBuscar"
+        android:title="@string/TomaLecturaMnuBuscar"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="always|withText" />
+
+    <item   android:id="@+id/LecturaMenuUbicacion"
+        android:title="@string/TomaLecturaMnuUbicacion"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_ubicacion"
+        app:showAsAction="always|withText" />
+</menu>

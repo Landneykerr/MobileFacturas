@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fragment="com.facturas.julian.mobilefacturas.SettingsFragment">
+    <Preference
+        android:key="pref_report_energy"
+        android:title="@string/pref_reporting"
+        android:summary="@string/pref_reporting_summary"/>
+</PreferenceScreen>

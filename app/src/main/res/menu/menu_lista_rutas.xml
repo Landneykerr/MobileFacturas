@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="lecturas.sypelc.mobilelecturas.lista_rutas">
+    <item   android:id="@+id/RutasMenuIniciar"
+            android:title="@string/MnuCtxEntregarFacturas"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+    <item   android:id="@+id/RutasMenuSincronizar"
+            android:title="@string/MnuCtxSincronizar"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+    <item   android:id="@+id/RutasMenuSincronizarFotos"
+        android:title="@string/MnuCtxSincronizarFotos"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item   android:id="@+id/RutasMenuTerminarRuta"
+        android:title="@string/MnuCtxTerminarRuta"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
